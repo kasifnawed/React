@@ -6,14 +6,14 @@ import './App.css'
 
 function App() {
 
- let [counter , setCounter] =  useState(10)
+ const  [counter , setCounter] =  useState(10)
 
 
   // let counter = 5
   const addValue = () => {
     if(counter < 20){
          setCounter(counter + 1)
-    }
+        }
     
   }
 const removeValue = () => {
